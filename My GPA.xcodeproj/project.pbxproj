@@ -8,12 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		CB063C5F1F25C774009913E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB063C5E1F25C774009913E0 /* AppDelegate.swift */; };
-		CB063C611F25C774009913E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB063C601F25C774009913E0 /* ViewController.swift */; };
+		CB063C611F25C774009913E0 /* homeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB063C601F25C774009913E0 /* homeScreen.swift */; };
 		CB063C641F25C774009913E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB063C621F25C774009913E0 /* Main.storyboard */; };
-		CB063C661F25C774009913E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB063C651F25C774009913E0 /* Assets.xcassets */; };
 		CB063C691F25C774009913E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB063C671F25C774009913E0 /* LaunchScreen.storyboard */; };
 		CB063C741F25C774009913E0 /* My_GPATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB063C731F25C774009913E0 /* My_GPATests.swift */; };
 		CB063C7F1F25C774009913E0 /* My_GPAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB063C7E1F25C774009913E0 /* My_GPAUITests.swift */; };
+		CB3EC9D21F5680EC00F6D663 /* newCourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3EC9D11F5680EC00F6D663 /* newCourse.swift */; };
+		CB3EC9D61F56BD8B00F6D663 /* semesterSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3EC9D51F56BD8B00F6D663 /* semesterSettings.swift */; };
+		CBBBFF7E1F4BB52C005F221E /* newSemester.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBBFF7D1F4BB52C005F221E /* newSemester.swift */; };
+		CBBBFF801F4C9AC2005F221E /* courseSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBBFF7F1F4C9AC2005F221E /* courseSettings.swift */; };
+		CBBBFF821F4CA028005F221E /* newAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBBFF811F4CA028005F221E /* newAssignment.swift */; };
+		CBBBFF841F4D1167005F221E /* Semester.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBBFF831F4D1167005F221E /* Semester.swift */; };
+		CBBBFF861F4D160B005F221E /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBBFF851F4D160B005F221E /* Course.swift */; };
+		CBBBFF881F4D1622005F221E /* Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBBFF871F4D1622005F221E /* Assignment.swift */; };
+		CBBBFF8A1F4D2B75005F221E /* SemestersList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBBFF891F4D2B75005F221E /* SemestersList.swift */; };
+		CBBF18701F4F37D000B7ADD3 /* CoursesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBF186F1F4F37D000B7ADD3 /* CoursesList.swift */; };
+		CBBF18741F50BC5700B7ADD3 /* AssignmentsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBF18731F50BC5700B7ADD3 /* AssignmentsList.swift */; };
+		CBBF18761F52199500B7ADD3 /* AssignmentPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBF18751F52199500B7ADD3 /* AssignmentPage.swift */; };
+		CBCFB4BF1F5542BF0074F34C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBCFB4BE1F5542BF0074F34C /* Assets.xcassets */; };
+		CBCFB4C11F55446B0074F34C /* GPASettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCFB4C01F55446B0074F34C /* GPASettings.swift */; };
+		CBCFB4C31F554B630074F34C /* GradeScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCFB4C21F554B630074F34C /* GradeScale.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +50,8 @@
 /* Begin PBXFileReference section */
 		CB063C5B1F25C774009913E0 /* My GPA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My GPA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB063C5E1F25C774009913E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CB063C601F25C774009913E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB063C601F25C774009913E0 /* homeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeScreen.swift; sourceTree = "<group>"; };
 		CB063C631F25C774009913E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CB063C651F25C774009913E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB063C681F25C774009913E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB063C6A1F25C774009913E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB063C6F1F25C774009913E0 /* My GPATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My GPATests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +60,21 @@
 		CB063C7A1F25C774009913E0 /* My GPAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My GPAUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB063C7E1F25C774009913E0 /* My_GPAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_GPAUITests.swift; sourceTree = "<group>"; };
 		CB063C801F25C774009913E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB3EC9D11F5680EC00F6D663 /* newCourse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newCourse.swift; sourceTree = "<group>"; };
+		CB3EC9D51F56BD8B00F6D663 /* semesterSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = semesterSettings.swift; sourceTree = "<group>"; };
+		CBBBFF7D1F4BB52C005F221E /* newSemester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newSemester.swift; sourceTree = "<group>"; };
+		CBBBFF7F1F4C9AC2005F221E /* courseSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = courseSettings.swift; sourceTree = "<group>"; };
+		CBBBFF811F4CA028005F221E /* newAssignment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newAssignment.swift; sourceTree = "<group>"; };
+		CBBBFF831F4D1167005F221E /* Semester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Semester.swift; sourceTree = "<group>"; };
+		CBBBFF851F4D160B005F221E /* Course.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		CBBBFF871F4D1622005F221E /* Assignment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assignment.swift; sourceTree = "<group>"; };
+		CBBBFF891F4D2B75005F221E /* SemestersList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SemestersList.swift; sourceTree = "<group>"; };
+		CBBF186F1F4F37D000B7ADD3 /* CoursesList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoursesList.swift; sourceTree = "<group>"; };
+		CBBF18731F50BC5700B7ADD3 /* AssignmentsList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssignmentsList.swift; sourceTree = "<group>"; };
+		CBBF18751F52199500B7ADD3 /* AssignmentPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssignmentPage.swift; sourceTree = "<group>"; };
+		CBCFB4BE1F5542BF0074F34C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBCFB4C01F55446B0074F34C /* GPASettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GPASettings.swift; path = ../GPASettings.swift; sourceTree = "<group>"; };
+		CBCFB4C21F554B630074F34C /* GradeScale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradeScale.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +126,25 @@
 			isa = PBXGroup;
 			children = (
 				CB063C5E1F25C774009913E0 /* AppDelegate.swift */,
-				CB063C601F25C774009913E0 /* ViewController.swift */,
+				CB063C601F25C774009913E0 /* homeScreen.swift */,
+				CBCFB4C01F55446B0074F34C /* GPASettings.swift */,
+				CBCFB4C21F554B630074F34C /* GradeScale.swift */,
 				CB063C621F25C774009913E0 /* Main.storyboard */,
-				CB063C651F25C774009913E0 /* Assets.xcassets */,
+				CBCFB4BE1F5542BF0074F34C /* Assets.xcassets */,
 				CB063C671F25C774009913E0 /* LaunchScreen.storyboard */,
 				CB063C6A1F25C774009913E0 /* Info.plist */,
+				CBBBFF891F4D2B75005F221E /* SemestersList.swift */,
+				CBBBFF7D1F4BB52C005F221E /* newSemester.swift */,
+				CB3EC9D51F56BD8B00F6D663 /* semesterSettings.swift */,
+				CBBF186F1F4F37D000B7ADD3 /* CoursesList.swift */,
+				CB3EC9D11F5680EC00F6D663 /* newCourse.swift */,
+				CBBBFF7F1F4C9AC2005F221E /* courseSettings.swift */,
+				CBBF18731F50BC5700B7ADD3 /* AssignmentsList.swift */,
+				CBBBFF811F4CA028005F221E /* newAssignment.swift */,
+				CBBF18751F52199500B7ADD3 /* AssignmentPage.swift */,
+				CBBBFF831F4D1167005F221E /* Semester.swift */,
+				CBBBFF851F4D160B005F221E /* Course.swift */,
+				CBBBFF871F4D1622005F221E /* Assignment.swift */,
 			);
 			path = "My GPA";
 			sourceTree = "<group>";
@@ -236,7 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB063C691F25C774009913E0 /* LaunchScreen.storyboard in Resources */,
-				CB063C661F25C774009913E0 /* Assets.xcassets in Resources */,
+				CBCFB4BF1F5542BF0074F34C /* Assets.xcassets in Resources */,
 				CB063C641F25C774009913E0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,8 +304,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB063C611F25C774009913E0 /* ViewController.swift in Sources */,
+				CBBBFF821F4CA028005F221E /* newAssignment.swift in Sources */,
+				CBBBFF861F4D160B005F221E /* Course.swift in Sources */,
+				CBCFB4C11F55446B0074F34C /* GPASettings.swift in Sources */,
+				CBBF18701F4F37D000B7ADD3 /* CoursesList.swift in Sources */,
+				CBBBFF841F4D1167005F221E /* Semester.swift in Sources */,
+				CB3EC9D21F5680EC00F6D663 /* newCourse.swift in Sources */,
+				CB063C611F25C774009913E0 /* homeScreen.swift in Sources */,
+				CBBBFF8A1F4D2B75005F221E /* SemestersList.swift in Sources */,
+				CBBBFF881F4D1622005F221E /* Assignment.swift in Sources */,
+				CBBBFF801F4C9AC2005F221E /* courseSettings.swift in Sources */,
+				CB3EC9D61F56BD8B00F6D663 /* semesterSettings.swift in Sources */,
 				CB063C5F1F25C774009913E0 /* AppDelegate.swift in Sources */,
+				CBCFB4C31F554B630074F34C /* GradeScale.swift in Sources */,
+				CBBF18761F52199500B7ADD3 /* AssignmentPage.swift in Sources */,
+				CBBBFF7E1F4BB52C005F221E /* newSemester.swift in Sources */,
+				CBBF18741F50BC5700B7ADD3 /* AssignmentsList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,12 +473,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Adhirath Sreekanth Lalgudi (A3S9PR25P7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 97WT3XQEQ8;
 				INFOPLIST_FILE = "My GPA/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Addy.My-GPA";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -430,12 +491,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Adhirath Lalgudi (97WT3XQEQ8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 97WT3XQEQ8;
 				INFOPLIST_FILE = "My GPA/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Addy.My-GPA";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -516,6 +582,7 @@
 				CB063C851F25C774009913E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB063C861F25C774009913E0 /* Build configuration list for PBXNativeTarget "My GPATests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +591,7 @@
 				CB063C881F25C774009913E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB063C891F25C774009913E0 /* Build configuration list for PBXNativeTarget "My GPAUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +600,7 @@
 				CB063C8B1F25C774009913E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
