@@ -26,8 +26,6 @@
 		CBBF18741F50BC5700B7ADD3 /* AssignmentsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBF18731F50BC5700B7ADD3 /* AssignmentsList.swift */; };
 		CBBF18761F52199500B7ADD3 /* AssignmentPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBF18751F52199500B7ADD3 /* AssignmentPage.swift */; };
 		CBCFB4BF1F5542BF0074F34C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBCFB4BE1F5542BF0074F34C /* Assets.xcassets */; };
-		CBCFB4C11F55446B0074F34C /* GPASettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCFB4C01F55446B0074F34C /* GPASettings.swift */; };
-		CBCFB4C31F554B630074F34C /* GradeScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCFB4C21F554B630074F34C /* GradeScale.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,8 +71,6 @@
 		CBBF18731F50BC5700B7ADD3 /* AssignmentsList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssignmentsList.swift; sourceTree = "<group>"; };
 		CBBF18751F52199500B7ADD3 /* AssignmentPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssignmentPage.swift; sourceTree = "<group>"; };
 		CBCFB4BE1F5542BF0074F34C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CBCFB4C01F55446B0074F34C /* GPASettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GPASettings.swift; path = ../GPASettings.swift; sourceTree = "<group>"; };
-		CBCFB4C21F554B630074F34C /* GradeScale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradeScale.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,8 +123,6 @@
 			children = (
 				CB063C5E1F25C774009913E0 /* AppDelegate.swift */,
 				CB063C601F25C774009913E0 /* homeScreen.swift */,
-				CBCFB4C01F55446B0074F34C /* GPASettings.swift */,
-				CBCFB4C21F554B630074F34C /* GradeScale.swift */,
 				CB063C621F25C774009913E0 /* Main.storyboard */,
 				CBCFB4BE1F5542BF0074F34C /* Assets.xcassets */,
 				CB063C671F25C774009913E0 /* LaunchScreen.storyboard */,
@@ -306,7 +300,6 @@
 			files = (
 				CBBBFF821F4CA028005F221E /* newAssignment.swift in Sources */,
 				CBBBFF861F4D160B005F221E /* Course.swift in Sources */,
-				CBCFB4C11F55446B0074F34C /* GPASettings.swift in Sources */,
 				CBBF18701F4F37D000B7ADD3 /* CoursesList.swift in Sources */,
 				CBBBFF841F4D1167005F221E /* Semester.swift in Sources */,
 				CB3EC9D21F5680EC00F6D663 /* newCourse.swift in Sources */,
@@ -316,7 +309,6 @@
 				CBBBFF801F4C9AC2005F221E /* courseSettings.swift in Sources */,
 				CB3EC9D61F56BD8B00F6D663 /* semesterSettings.swift in Sources */,
 				CB063C5F1F25C774009913E0 /* AppDelegate.swift in Sources */,
-				CBCFB4C31F554B630074F34C /* GradeScale.swift in Sources */,
 				CBBF18761F52199500B7ADD3 /* AssignmentPage.swift in Sources */,
 				CBBBFF7E1F4BB52C005F221E /* newSemester.swift in Sources */,
 				CBBF18741F50BC5700B7ADD3 /* AssignmentsList.swift in Sources */,

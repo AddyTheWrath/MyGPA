@@ -78,84 +78,44 @@ class Course: NSObject, NSCoding {
     func calculateCourseGPA() -> Float {
         
         let x = calculateCourseAverage()
-        let defaults = UserDefaults.standard
         
-        let gpaAPlus = defaults.float(forKey: "gpaA+")
-        let minAPlus = defaults.float(forKey: "minA+")
+        // Not defining user inputted values (JUST U OF T)
         
-        let gpaA = defaults.float(forKey: "gpaA")
-        let minA = defaults.float(forKey: "minA")
-        
-        let gpaAMinus = defaults.float(forKey: "gpaA-")
-        let minAMinus = defaults.float(forKey: "minA-")
-        
-        let gpaBPlus = defaults.float(forKey: "gpaB+")
-        let minBPlus = defaults.float(forKey: "minB+")
-        
-        let gpaB = defaults.float(forKey: "gpaB")
-        let minB = defaults.float(forKey: "minB")
-        
-        let gpaBMinus = defaults.float(forKey: "gpaB-")
-        let minBMinus = defaults.float(forKey: "minB-")
-        
-        let gpaCPlus = defaults.float(forKey: "gpaC+")
-        let minCPlus = defaults.float(forKey: "minC+")
-        
-        let gpaC = defaults.float(forKey: "gpaC")
-        let minC = defaults.float(forKey: "minC")
-        
-        let gpaCMinus = defaults.float(forKey: "gpaC-")
-        let minCMinus = defaults.float(forKey: "minC-")
-        
-        let gpaDPlus = defaults.float(forKey: "gpaD+")
-        let minDPlus = defaults.float(forKey: "minD+")
-        
-        let gpaD = defaults.float(forKey: "gpaD")
-        let minD = defaults.float(forKey: "minD")
-        
-        let gpaDMinus = defaults.float(forKey: "gpaD-")
-        let minDMinus = defaults.float(forKey: "minD-")
-        
-        let gpaF = defaults.float(forKey: "gpaF")
-        
-        if(minAPlus<=x && x<=100) { //A and A+
-            return gpaAPlus
+        if(x>=85) { //A and A+
+            return 4.0
         }
-        else if(minA<=x && x<minAPlus) {
-            return gpaA
+        else if(80<=x && x<85) { //A-
+            return 3.7
         }
-        else if(minAMinus<=x && x<minA) { //A-
-            return gpaAMinus
+        else if(77<=x && x<80) { //B+
+            return 3.3
         }
-        else if(minBPlus<=x && x<minAMinus) { //B+
-            return gpaBPlus
+        else if(73<=x && x<77) { //B
+            return 3.0
         }
-        else if(minB<=x && x<minBPlus) { //B
-            return gpaB
+        else if(70<=x && x<73) { //B-
+            return 2.7
         }
-        else if(minBMinus<=x && x<minB) { //B-
-            return gpaBMinus
+        else if(67<=x && x<70) { //C+
+            return 2.3
         }
-        else if(minCPlus<=x && x<minBMinus) { //C+
-            return gpaCPlus
+        else if(63<=x && x<67) { //C
+            return 2.0
         }
-        else if(minC<=x && x<minCPlus) { //C
-            return gpaC
+        else if(60<=x && x<63) { //C-
+            return 1.7
         }
-        else if(minCMinus<=x && x<minC) { //C-
-            return gpaCMinus
+        else if(57<=x && x<60) { //D+
+            return 1.3
         }
-        else if(minDPlus<=x && x<minCMinus) { //D+
-            return gpaDPlus
+        else if(53<=x && x<57) { //D
+            return 1.0
         }
-        else if(minD<=x && x<minDPlus) { //D
-            return gpaD
-        }
-        else if(minDMinus<=x && x<minD) { //D-
-            return gpaDMinus
+        else if(50<=x && x<53) { //D-
+            return 0.7
         }
         else { //F
-            return gpaF
+            return 0.0
         }
     }
     
